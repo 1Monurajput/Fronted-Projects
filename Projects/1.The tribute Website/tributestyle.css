@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+#container{
+    background-color:#FDECE3;
+    height: 950px;
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 5%;
+    overflow: hidden;
+}
+#head{
+    height: 250px;
+    border-bottom: 10px solid red;
+}
+#body{
+    height: 750px;
+    padding: 15px;
+    text-align: left;
+    
+}
+#imgDiv{
+    height: 99%;
+    width: 200px;
+    display: inline-block;
+}
+img{
+    height: 200px;
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#name{
+    display: inline-block;
+    text-align: end;
+    line-height: 11px;
+    margin-left: 30px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+h3{
+    font-size: 20px;
+    font-weight: 200;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+li{
+    margin-left: 40px;
+}
+#foot{
+    text-align: center; 
+    margin-top: 100px; 
+    font-size: medium;
+    display: inline block;
+}
+#heart{
+    text-align: center;
+    font-size: 30px;
+    animation: heart  .5s infinite alternate linear;
+}
+@keyframes heart {
+    from{
+        transform: scale(.5);
+    }
+    to{
+        transform: scale(1);
+    }
+}
