@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,300;1,9..40,200;1,9..40,300&family=EB+Garamond:wght@400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    height: 64.0rem;
+    display: flex;
+    background-color: #f3f3f4;
+}
+.textBox{
+    width: 50%;
+    display: grid;
+    place-content: center;
+    padding-bottom: 11.0rem;
+    padding-left: 6.8rem;
+}
+.textBox p{
+    padding-left: 1.0rem;
+    font-family: 'DM Sans', sans-serif;
+}
+.loginBox{
+    width: 50%;
+    display: grid;
+    place-content: center;
+    padding-right: 16.0rem;
+}
+.table{
+    height: 35.0rem;
+    background-color: white;
+    width: 40.0rem;
+    border-radius: 1.0rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, 0.2), 0 .6rem 2.0rem 0 rgba(0, 0, 0, 0.19);
+    padding: 1.5rem;
+    text-align: center;
+}
+img{
+    height: 8.0rem;
+}
+.textBox p{
+    font-size: 2.8rem;
+}
+input{
+    height: 5.0rem;
+    padding: 2.0rem;
+    border-radius: .5rem;
+    margin-bottom: 2.0rem;
+    font-size: 1.6rem;
+    border: none;
+    border:.1rem solid rgb(202, 202, 202);;
+}
+input:focus-visible{
+    border-style: none;
+}
+button{
+    height:5.0rem;
+    width: 100%;
+    border-radius: .5rem;
+    background-color:#1f75f4;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: white;
+    border: none;
+    
+}
+a{
+    padding: 1.5rem;
+    color: #1f75f4;
+    text-decoration: none;
+}
+#bord{
+    border-bottom: .1rem solid rgb(202, 202, 202);
+}
+#new{
+    width: 50%;
+    margin: 0 auto;
+    height: 5.0rem;
+    font-size: 1.5rem;
+    margin-top: 2.0rem;
+    background-color:#42b72a;
+}
+#new:hover{
+    background-color: #3ba526;
+    transition: all 0.3s;
+}
+.loginBox p{
+    margin-top: 3.0rem;
+    font-size: 1.5rem;
+    padding-left: 4.0rem;
+}
+@media(max-width:1050px){
+    html{
+        font-size: 55%;
+    }
+}
+@media(max-width:950px){
+    html{
+        font-size: 49%;
+    }
+}
+@media(max-width:835px){
+    html{
+        font-size: 40%;
+    }
+}
+@media(max-width:635px){
+    html{
+        font-size: 30%;
+    }
+}
+@media(max-width:500px){
+    html{
+        font-size: 20%;
+    }
+}
+@media(max-width:320px){
+    html{
+        font-size: 10%;
+    }
+}
+@media(max-width:210px){
+    html{
+        font-size: 8%;
+    }
+}

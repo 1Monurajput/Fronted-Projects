@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.3);
+    position: sticky;
+    top: 0;
+    background-color: white;
+    margin-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#logoText{
+    padding-top: 40px;
+    font-size: 25px;
+    transition: 0.1s ease-in-out;
+}
+#logoText:hover{
+    transform: scale(1.3);
+    transition: 0.1s ease-in-out;
+}
+#frontPageContainer{
+    height: 500px;
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 10px;
+}
+#frontPageImage{
+    background-image: url(Images/wallpaperflare.com_wallpaper.jpg);
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+#frontPageText{
+    height: 100%;
+    width: 50%;
+}
+#tag{
+    background-color: green;
+    font-size: 20px;
+    max-width: max-content;
+    padding: 10px 40px;
+    color: white;
+    margin-top: 40px;
+}
+#text{
+    font-size: 60px;
+    font-weight: 900;
+    padding-top: 50px;
+}
+p{
+    text-align: left;
+}
+button{
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    font-size: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border-color: white;
+    transition: 0.1s ease-in-out;
+}
+button:hover{
+    transform: scale(1.08);
+    transition: 0.1s ease-in-out;
+}
+#divider{
+    border: 2px solid grey;
+    margin: 40px;
+}
+
+#info{
+    height: 100px;
+    display: flex;
+    column-gap: 70px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+#info1{
+    width: 300px;
+    height: 100%;
+    display: flex;
+
+}
+#infoText{
+    margin-left: 10px;
+}
+#info1:hover{
+    transform: scale(1.08);
+    transition: 0.2s ease-in-out;
+    box-shadow: 3px 3px 3px 3px rgba(1,1,1,0.5);
+}
+#menuName{
+    background-color: green;
+    color: white;
+    width: max-content;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+}
+#menuTitle{
+    color: brown;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+#menuBar{
+    display: grid;
+    padding: 50px;
+    gap: 10px;
+    grid-template-areas: 
+    "i1 i1 i2 i3"
+    "i1 i1 i2 i7"
+    "i4 i5 i6 i7";
+}
+#img1{
+    grid-area: i1;
+    background-image: url(Images/grid\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+#img2{
+    grid-area: i2;
+    background-image: url(Images/grid\ \(2\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img3{
+    grid-area: i3;
+    height: 150px;
+    background-image: url(Images/grid\ \(3\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img4{
+    grid-area: i4;
+    height: 200px;
+    background-image: url(Images/grid\ \(4\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img5{
+    grid-area: i5;
+    background-image: url(Images/grid\ \(5\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img6{
+    grid-area: i6;
+    background-image: url(Images/grid\ \(6\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img7{
+    grid-area: i7;
+    background-image: url(Images/grid\ \(7\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img1,#img,#img3,#img4,#img5,#img6,#img7{
+    border-radius: 10px;
+}
+#footer{
+    height: 150px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    line-height: 20px;
+}
+#logoFooter{
+    height: 100%;
+    width: 20%;
+}
+#linkFooter{
+    height: 100%;
+    width: 20%;
+    padding: 20px;
+}
+#supportFooter{
+    height: 100%;
+    width: 20%;
+    padding: 20px;
+}
+#handleFooter{
+    padding: 20px;
+    height: 100%;
+    width: 20%;
+    line-height: 30px;
+    word-spacing: 2px;
+}
+@media (min-width:380px) and (max-width :768px){
+    body{
+        padding: 10px;
+    }
+    #frontPageContainer{
+        flex-direction: column;
+        margin: 0 auto;
+        height: 800px;
+    }
+    #frontPageImage{
+        height: 40%;
+        width: 100%;
+    }
+    #frontPageText{
+        height: 60%;
+        width: 100%;
+    }
+    #info{
+        height: 400px;
+        flex-direction: column;
+        row-gap: 10px;
+
+    }
+    #img1,#img,#img3,#img4,#img5,#img6,#img7{
+        height: 200px;
+    }
+    #footer{
+        flex-direction: column;
+        column-gap: 20px;
+        height: fit-content;
+    }
+}
+@media (max-width:380px){
+    body{
+        padding: 0 10px;
+    }
+    #frontPageContainer{
+        flex-direction: column;
+        margin: 0 auto;
+        height: 950px;
+    }
+    #frontPageImage{
+        height: 40%;
+        width: 100%;
+    }
+    #frontPageText{
+        height: 60%;
+        width: 100%;
+    }
+    #info{
+        height: 400px;
+        flex-direction: column;
+        row-gap: 10px;
+
+    }
+    #img1,#img,#img3,#img4,#img5,#img6,#img7{
+        height: 100px;
+    }
+    #footer{
+        flex-direction: column;
+        column-gap: 20px;
+        height: fit-content;
+    }
+}

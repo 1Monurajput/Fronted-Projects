@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+#section{
+    height: 600px;
+    background-image: url(dev\ \(4\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#sectionText{
+    margin: 0 auto;
+    height: fit-content;
+    max-width: fit-content;
+    padding-top: 40px;
+}
+#spanText{
+    font-size: medium;
+    font-weight: 200;
+}
+h2{
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+#work{
+    height: 120px;
+    background-color: black;
+}
+#workText{
+    color: aliceblue;
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: 2px;
+}
+#skill{
+    height: 450px;
+
+}
+#skillBlock{ 
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+}
+#check{
+    background-color: aquamarine;
+    height: 200px;
+    display: flex;
+}
+.images{
+    box-shadow: 5px 8px 8px rgba(1,1,1,0.2);
+    height: auto;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: 0.2s ease-in-out;
+}
+#contact{
+    background-color: rgb(35, 113, 65);
+    height: 100%;
+    width: 50%;
+    padding: 30px;
+}
+#about{
+    background-color: brown;
+    height: 100%;
+    width: 50%;
+    padding: 30px;
+}
+#imageBlock1,#imageBlock2,#imageBlock3{
+    height: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 3px 5px 5px rgba(1,1,1,0.4);}
+#text{
+    height: 60%;
+    padding: 30px;
+}
+#imageBlock1{
+    background-image: url(dev\ \(1\).jpg);
+}
+#imageBlock2{
+    background-image: url(dev\ \(3\).jpg);
+}
+#imageBlock3{
+    background-image: url(dev\ \(2\).jpg);
+}
+h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+h4{
+    font-size: 20px;
+}
+.images:hover{
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1,1,1,0.7);
+    transition: 0.2s ease-in-out;
+}
